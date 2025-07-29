@@ -1,0 +1,30 @@
+{
+  "name": "@clcode/watermark",
+  "version": "0.0.1",
+  "description": "watermark npm package",
+  "private": false,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chenleicode/watermark.git"
+  },
+  "keywords": [
+    "watermark"
+  ],
+  "author": "chenlei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chenleicode/watermark/issues"
+  },
+  "homepage": "https://github.com/chenleicode/watermark#readme"
+}
