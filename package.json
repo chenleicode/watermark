@@ -1,5 +1,5 @@
 {
-  "name": "@clcode/watermark",
+  "name": "@chenleicode/watermark",
   "version": "0.0.1",
   "description": "watermark npm package",
   "private": false,
@@ -11,7 +11,6 @@
   ],
   "scripts": {
     "build": "tsc",
-    "prepublishOnly": "npm run build",
     "test": "test"
   },
   "repository": {
@@ -26,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/chenleicode/watermark/issues"
   },
-  "homepage": "https://github.com/chenleicode/watermark#readme"
+  "homepage": "https://github.com/chenleicode/watermark#readme",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
 }
